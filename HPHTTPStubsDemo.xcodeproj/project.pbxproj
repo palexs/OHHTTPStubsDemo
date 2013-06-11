@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74BD927517676E73006A0373 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BD927417676E73006A0373 /* UIKit.framework */; };
+		74BD927717676E73006A0373 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BD927617676E73006A0373 /* Foundation.framework */; };
+		74BD927917676E73006A0373 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BD927817676E73006A0373 /* CoreGraphics.framework */; };
+		74BD927F17676E73006A0373 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74BD927D17676E73006A0373 /* InfoPlist.strings */; };
+		74BD928117676E73006A0373 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BD928017676E73006A0373 /* main.m */; };
+		74BD928517676E73006A0373 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BD928417676E73006A0373 /* AppDelegate.m */; };
+		74BD928717676E73006A0373 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 74BD928617676E73006A0373 /* Default.png */; };
+		74BD928917676E73006A0373 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74BD928817676E73006A0373 /* Default@2x.png */; };
+		74BD928B17676E73006A0373 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74BD928A17676E73006A0373 /* Default-568h@2x.png */; };
+		74BD928E17676E73006A0373 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BD928D17676E73006A0373 /* ViewController.m */; };
+		74BD929117676E73006A0373 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74BD928F17676E73006A0373 /* ViewController.xib */; };
+		74BD929917676E74006A0373 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BD929817676E74006A0373 /* SenTestingKit.framework */; };
+		74BD929A17676E74006A0373 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BD927417676E73006A0373 /* UIKit.framework */; };
+		74BD929B17676E74006A0373 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BD927617676E73006A0373 /* Foundation.framework */; };
+		74BD92A317676E74006A0373 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74BD92A117676E74006A0373 /* InfoPlist.strings */; };
+		74BD92A617676E74006A0373 /* HPHTTPStubsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BD92A517676E74006A0373 /* HPHTTPStubsDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74BD929C17676E74006A0373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74BD926917676E73006A0373 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74BD927017676E73006A0373;
+			remoteInfo = HPHTTPStubsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74BD927117676E73006A0373 /* HPHTTPStubsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPHTTPStubsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BD927417676E73006A0373 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		74BD927617676E73006A0373 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		74BD927817676E73006A0373 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		74BD927C17676E73006A0373 /* HPHTTPStubsDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HPHTTPStubsDemo-Info.plist"; sourceTree = "<group>"; };
+		74BD927E17676E73006A0373 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74BD928017676E73006A0373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74BD928217676E73006A0373 /* HPHTTPStubsDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HPHTTPStubsDemo-Prefix.pch"; sourceTree = "<group>"; };
+		74BD928317676E73006A0373 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74BD928417676E73006A0373 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74BD928617676E73006A0373 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		74BD928817676E73006A0373 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		74BD928A17676E73006A0373 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		74BD928C17676E73006A0373 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		74BD928D17676E73006A0373 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74BD929017676E73006A0373 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		74BD929717676E74006A0373 /* HPHTTPStubsDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPHTTPStubsDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BD929817676E74006A0373 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		74BD92A017676E74006A0373 /* HPHTTPStubsDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HPHTTPStubsDemoTests-Info.plist"; sourceTree = "<group>"; };
+		74BD92A217676E74006A0373 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74BD92A417676E74006A0373 /* HPHTTPStubsDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPHTTPStubsDemoTests.h; sourceTree = "<group>"; };
+		74BD92A517676E74006A0373 /* HPHTTPStubsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPHTTPStubsDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74BD926E17676E73006A0373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74BD927517676E73006A0373 /* UIKit.framework in Frameworks */,
+				74BD927717676E73006A0373 /* Foundation.framework in Frameworks */,
+				74BD927917676E73006A0373 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BD929317676E74006A0373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74BD929917676E74006A0373 /* SenTestingKit.framework in Frameworks */,
+				74BD929A17676E74006A0373 /* UIKit.framework in Frameworks */,
+				74BD929B17676E74006A0373 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74BD926817676E73006A0373 = {
+			isa = PBXGroup;
+			children = (
+				74BD927A17676E73006A0373 /* HPHTTPStubsDemo */,
+				74BD929E17676E74006A0373 /* HPHTTPStubsDemoTests */,
+				74BD927317676E73006A0373 /* Frameworks */,
+				74BD927217676E73006A0373 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74BD927217676E73006A0373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74BD927117676E73006A0373 /* HPHTTPStubsDemo.app */,
+				74BD929717676E74006A0373 /* HPHTTPStubsDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74BD927317676E73006A0373 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74BD927417676E73006A0373 /* UIKit.framework */,
+				74BD927617676E73006A0373 /* Foundation.framework */,
+				74BD927817676E73006A0373 /* CoreGraphics.framework */,
+				74BD929817676E74006A0373 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74BD927A17676E73006A0373 /* HPHTTPStubsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				74BD928317676E73006A0373 /* AppDelegate.h */,
+				74BD928417676E73006A0373 /* AppDelegate.m */,
+				74BD928C17676E73006A0373 /* ViewController.h */,
+				74BD928D17676E73006A0373 /* ViewController.m */,
+				74BD928F17676E73006A0373 /* ViewController.xib */,
+				74BD927B17676E73006A0373 /* Supporting Files */,
+			);
+			path = HPHTTPStubsDemo;
+			sourceTree = "<group>";
+		};
+		74BD927B17676E73006A0373 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74BD927C17676E73006A0373 /* HPHTTPStubsDemo-Info.plist */,
+				74BD927D17676E73006A0373 /* InfoPlist.strings */,
+				74BD928017676E73006A0373 /* main.m */,
+				74BD928217676E73006A0373 /* HPHTTPStubsDemo-Prefix.pch */,
+				74BD928617676E73006A0373 /* Default.png */,
+				74BD928817676E73006A0373 /* Default@2x.png */,
+				74BD928A17676E73006A0373 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74BD929E17676E74006A0373 /* HPHTTPStubsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				74BD92A417676E74006A0373 /* HPHTTPStubsDemoTests.h */,
+				74BD92A517676E74006A0373 /* HPHTTPStubsDemoTests.m */,
+				74BD929F17676E74006A0373 /* Supporting Files */,
+			);
+			path = HPHTTPStubsDemoTests;
+			sourceTree = "<group>";
+		};
+		74BD929F17676E74006A0373 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74BD92A017676E74006A0373 /* HPHTTPStubsDemoTests-Info.plist */,
+				74BD92A117676E74006A0373 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74BD927017676E73006A0373 /* HPHTTPStubsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74BD92A917676E74006A0373 /* Build configuration list for PBXNativeTarget "HPHTTPStubsDemo" */;
+			buildPhases = (
+				74BD926D17676E73006A0373 /* Sources */,
+				74BD926E17676E73006A0373 /* Frameworks */,
+				74BD926F17676E73006A0373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPHTTPStubsDemo;
+			productName = HPHTTPStubsDemo;
+			productReference = 74BD927117676E73006A0373 /* HPHTTPStubsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74BD929617676E74006A0373 /* HPHTTPStubsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74BD92AC17676E74006A0373 /* Build configuration list for PBXNativeTarget "HPHTTPStubsDemoTests" */;
+			buildPhases = (
+				74BD929217676E74006A0373 /* Sources */,
+				74BD929317676E74006A0373 /* Frameworks */,
+				74BD929417676E74006A0373 /* Resources */,
+				74BD929517676E74006A0373 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74BD929D17676E74006A0373 /* PBXTargetDependency */,
+			);
+			name = HPHTTPStubsDemoTests;
+			productName = HPHTTPStubsDemoTests;
+			productReference = 74BD929717676E74006A0373 /* HPHTTPStubsDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74BD926917676E73006A0373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Alexander Perepelitsyn";
+			};
+			buildConfigurationList = 74BD926C17676E73006A0373 /* Build configuration list for PBXProject "HPHTTPStubsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 74BD926817676E73006A0373;
+			productRefGroup = 74BD927217676E73006A0373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74BD927017676E73006A0373 /* HPHTTPStubsDemo */,
+				74BD929617676E74006A0373 /* HPHTTPStubsDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74BD926F17676E73006A0373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74BD927F17676E73006A0373 /* InfoPlist.strings in Resources */,
+				74BD928717676E73006A0373 /* Default.png in Resources */,
+				74BD928917676E73006A0373 /* Default@2x.png in Resources */,
+				74BD928B17676E73006A0373 /* Default-568h@2x.png in Resources */,
+				74BD929117676E73006A0373 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BD929417676E74006A0373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74BD92A317676E74006A0373 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74BD929517676E74006A0373 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74BD926D17676E73006A0373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74BD928117676E73006A0373 /* main.m in Sources */,
+				74BD928517676E73006A0373 /* AppDelegate.m in Sources */,
+				74BD928E17676E73006A0373 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BD929217676E74006A0373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74BD92A617676E74006A0373 /* HPHTTPStubsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74BD929D17676E74006A0373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74BD927017676E73006A0373 /* HPHTTPStubsDemo */;
+			targetProxy = 74BD929C17676E74006A0373 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74BD927D17676E73006A0373 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74BD927E17676E73006A0373 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		74BD928F17676E73006A0373 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74BD929017676E73006A0373 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		74BD92A117676E74006A0373 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74BD92A217676E74006A0373 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74BD92A717676E74006A0373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74BD92A817676E74006A0373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74BD92AA17676E74006A0373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HPHTTPStubsDemo/HPHTTPStubsDemo-Prefix.pch";
+				INFOPLIST_FILE = "HPHTTPStubsDemo/HPHTTPStubsDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		74BD92AB17676E74006A0373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HPHTTPStubsDemo/HPHTTPStubsDemo-Prefix.pch";
+				INFOPLIST_FILE = "HPHTTPStubsDemo/HPHTTPStubsDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		74BD92AD17676E74006A0373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HPHTTPStubsDemo.app/HPHTTPStubsDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HPHTTPStubsDemo/HPHTTPStubsDemo-Prefix.pch";
+				INFOPLIST_FILE = "HPHTTPStubsDemoTests/HPHTTPStubsDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		74BD92AE17676E74006A0373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HPHTTPStubsDemo.app/HPHTTPStubsDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HPHTTPStubsDemo/HPHTTPStubsDemo-Prefix.pch";
+				INFOPLIST_FILE = "HPHTTPStubsDemoTests/HPHTTPStubsDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74BD926C17676E73006A0373 /* Build configuration list for PBXProject "HPHTTPStubsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74BD92A717676E74006A0373 /* Debug */,
+				74BD92A817676E74006A0373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74BD92A917676E74006A0373 /* Build configuration list for PBXNativeTarget "HPHTTPStubsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74BD92AA17676E74006A0373 /* Debug */,
+				74BD92AB17676E74006A0373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74BD92AC17676E74006A0373 /* Build configuration list for PBXNativeTarget "HPHTTPStubsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74BD92AD17676E74006A0373 /* Debug */,
+				74BD92AE17676E74006A0373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74BD926917676E73006A0373 /* Project object */;
+}
