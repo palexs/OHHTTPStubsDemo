@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E7347B3B16B469AA4DCA9FE /* libPods-HPHTTPStubsDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A90E25BF53194F26A4C671B5 /* libPods-HPHTTPStubsDemoTests.a */; };
 		74BD927517676E73006A0373 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BD927417676E73006A0373 /* UIKit.framework */; };
 		74BD927717676E73006A0373 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BD927617676E73006A0373 /* Foundation.framework */; };
 		74BD927917676E73006A0373 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BD927817676E73006A0373 /* CoreGraphics.framework */; };
@@ -23,6 +24,9 @@
 		74BD929B17676E74006A0373 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BD927617676E73006A0373 /* Foundation.framework */; };
 		74BD92A317676E74006A0373 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74BD92A117676E74006A0373 /* InfoPlist.strings */; };
 		74BD92A617676E74006A0373 /* HPHTTPStubsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BD92A517676E74006A0373 /* HPHTTPStubsDemoTests.m */; };
+		74BD92B117676F77006A0373 /* AsyncSenTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BD92B017676F77006A0373 /* AsyncSenTestCase.m */; };
+		74BD92B3176770F9006A0373 /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = 74BD92B2176770F8006A0373 /* response.json */; };
+		F28905F9880F4DE38F05714C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7F5CF264634CFAB9CC9550 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BEFCA88EB894185BA4D6A55 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		6F7F5CF264634CFAB9CC9550 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		739A2FBE7FFF4A99905E42CC /* Pods-HPHTTPStubsDemoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPHTTPStubsDemoTests.xcconfig"; path = "Pods/Pods-HPHTTPStubsDemoTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		74BD927117676E73006A0373 /* HPHTTPStubsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPHTTPStubsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BD927417676E73006A0373 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		74BD927617676E73006A0373 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,8 +63,11 @@
 		74BD929817676E74006A0373 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		74BD92A017676E74006A0373 /* HPHTTPStubsDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HPHTTPStubsDemoTests-Info.plist"; sourceTree = "<group>"; };
 		74BD92A217676E74006A0373 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		74BD92A417676E74006A0373 /* HPHTTPStubsDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPHTTPStubsDemoTests.h; sourceTree = "<group>"; };
 		74BD92A517676E74006A0373 /* HPHTTPStubsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPHTTPStubsDemoTests.m; sourceTree = "<group>"; };
+		74BD92B017676F77006A0373 /* AsyncSenTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSenTestCase.m; sourceTree = "<group>"; };
+		74BD92B2176770F8006A0373 /* response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = response.json; sourceTree = "<group>"; };
+		74BD92B417677219006A0373 /* AsyncSenTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSenTestCase.h; sourceTree = "<group>"; };
+		A90E25BF53194F26A4C671B5 /* libPods-HPHTTPStubsDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HPHTTPStubsDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +78,7 @@
 				74BD927517676E73006A0373 /* UIKit.framework in Frameworks */,
 				74BD927717676E73006A0373 /* Foundation.framework in Frameworks */,
 				74BD927917676E73006A0373 /* CoreGraphics.framework in Frameworks */,
+				F28905F9880F4DE38F05714C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,7 @@
 				74BD929917676E74006A0373 /* SenTestingKit.framework in Frameworks */,
 				74BD929A17676E74006A0373 /* UIKit.framework in Frameworks */,
 				74BD929B17676E74006A0373 /* Foundation.framework in Frameworks */,
+				5E7347B3B16B469AA4DCA9FE /* libPods-HPHTTPStubsDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +103,8 @@
 				74BD929E17676E74006A0373 /* HPHTTPStubsDemoTests */,
 				74BD927317676E73006A0373 /* Frameworks */,
 				74BD927217676E73006A0373 /* Products */,
+				3BEFCA88EB894185BA4D6A55 /* Pods.xcconfig */,
+				739A2FBE7FFF4A99905E42CC /* Pods-HPHTTPStubsDemoTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +124,8 @@
 				74BD927617676E73006A0373 /* Foundation.framework */,
 				74BD927817676E73006A0373 /* CoreGraphics.framework */,
 				74BD929817676E74006A0373 /* SenTestingKit.framework */,
+				6F7F5CF264634CFAB9CC9550 /* libPods.a */,
+				A90E25BF53194F26A4C671B5 /* libPods-HPHTTPStubsDemoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -144,8 +160,10 @@
 		74BD929E17676E74006A0373 /* HPHTTPStubsDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				74BD92A417676E74006A0373 /* HPHTTPStubsDemoTests.h */,
 				74BD92A517676E74006A0373 /* HPHTTPStubsDemoTests.m */,
+				74BD92B417677219006A0373 /* AsyncSenTestCase.h */,
+				74BD92B017676F77006A0373 /* AsyncSenTestCase.m */,
+				74BD92B2176770F8006A0373 /* response.json */,
 				74BD929F17676E74006A0373 /* Supporting Files */,
 			);
 			path = HPHTTPStubsDemoTests;
@@ -167,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74BD92A917676E74006A0373 /* Build configuration list for PBXNativeTarget "HPHTTPStubsDemo" */;
 			buildPhases = (
+				63997823D0EA494EA80390E1 /* Check Pods Manifest.lock */,
 				74BD926D17676E73006A0373 /* Sources */,
 				74BD926E17676E73006A0373 /* Frameworks */,
 				74BD926F17676E73006A0373 /* Resources */,
+				EBDBB98DF2044228B78777D1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,10 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74BD92AC17676E74006A0373 /* Build configuration list for PBXNativeTarget "HPHTTPStubsDemoTests" */;
 			buildPhases = (
+				644C1D3CBAB54ACD863F85AB /* Check Pods Manifest.lock */,
 				74BD929217676E74006A0373 /* Sources */,
 				74BD929317676E74006A0373 /* Frameworks */,
 				74BD929417676E74006A0373 /* Resources */,
 				74BD929517676E74006A0373 /* ShellScript */,
+				79576C25981B42739782BC98 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,12 +266,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				74BD92A317676E74006A0373 /* InfoPlist.strings in Resources */,
+				74BD92B3176770F9006A0373 /* response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		63997823D0EA494EA80390E1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sanbox is not in sync with the Podfile.lock. Run 'pod install'.\nEOM\n    exit 1\nfi\n";
+		};
+		644C1D3CBAB54ACD863F85AB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sanbox is not in sync with the Podfile.lock. Run 'pod install'.\nEOM\n    exit 1\nfi\n";
+		};
 		74BD929517676E74006A0373 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -262,6 +313,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		79576C25981B42739782BC98 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-HPHTTPStubsDemoTests-resources.sh\"\n";
+		};
+		EBDBB98DF2044228B78777D1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -281,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74BD92A617676E74006A0373 /* HPHTTPStubsDemoTests.m in Sources */,
+				74BD92B117676F77006A0373 /* AsyncSenTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +460,7 @@
 		};
 		74BD92AA17676E74006A0373 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BEFCA88EB894185BA4D6A55 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HPHTTPStubsDemo/HPHTTPStubsDemo-Prefix.pch";
@@ -391,6 +472,7 @@
 		};
 		74BD92AB17676E74006A0373 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BEFCA88EB894185BA4D6A55 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HPHTTPStubsDemo/HPHTTPStubsDemo-Prefix.pch";
@@ -402,6 +484,7 @@
 		};
 		74BD92AD17676E74006A0373 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 739A2FBE7FFF4A99905E42CC /* Pods-HPHTTPStubsDemoTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HPHTTPStubsDemo.app/HPHTTPStubsDemo";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -419,6 +502,7 @@
 		};
 		74BD92AE17676E74006A0373 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 739A2FBE7FFF4A99905E42CC /* Pods-HPHTTPStubsDemoTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HPHTTPStubsDemo.app/HPHTTPStubsDemo";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -453,6 +537,7 @@
 				74BD92AB17676E74006A0373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74BD92AC17676E74006A0373 /* Build configuration list for PBXNativeTarget "HPHTTPStubsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +546,7 @@
 				74BD92AE17676E74006A0373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

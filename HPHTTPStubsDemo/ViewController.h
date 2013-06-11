@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+- (void)downloadFromURL:(NSURL *)url completionBlock:(void (^)(id, NSError *))block;
+
 @end
